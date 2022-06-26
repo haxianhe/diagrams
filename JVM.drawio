@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T08:16:54.151Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3BJqR7YvBcf-t3I9Ekbz" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T15:30:46.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Sh9OcKh8WyMs6ilBOxkh" version="20.0.3" type="github">
   <diagram id="K4vAkyuHzr__zoMk4vQg" name="Page-1">
     <mxGraphModel dx="2066" dy="2217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,13 +117,55 @@
           <mxGeometry x="285" y="930" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qv8OclqeBMi0ClYqG2Sq-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="251.88" y="1070" width="233.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qv8OclqeBMi0ClYqG2Sq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="qv8OclqeBMi0ClYqG2Sq-16" target="qv8OclqeBMi0ClYqG2Sq-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qv8OclqeBMi0ClYqG2Sq-16" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="337.5" y="610" width="62.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-19" value="本地方法区&lt;br&gt;（1.8之前也叫永久代）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="1093.75" width="225" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-20" value="&lt;div&gt;在 JDK 1.8 之后，原来永久代的数据被分到了堆和元空间中。元空间存储类的元信息，静态变量和常量池等放入堆中。&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="1180" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="870" y="780" width="540" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1029" width="540" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="qv8OclqeBMi0ClYqG2Sq-26" target="qv8OclqeBMi0ClYqG2Sq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-26" value="对象 a" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="920" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="qv8OclqeBMi0ClYqG2Sq-27" target="qv8OclqeBMi0ClYqG2Sq-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-27" value="对象 b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="qv8OclqeBMi0ClYqG2Sq-28" target="qv8OclqeBMi0ClYqG2Sq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-28" value="&amp;amp;对象 a" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1069" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.583;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="qv8OclqeBMi0ClYqG2Sq-29" target="qv8OclqeBMi0ClYqG2Sq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-29" value="&amp;amp;对象 b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-36" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qv8OclqeBMi0ClYqG2Sq-37" value="方法区&lt;br&gt;（元空间）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1092.5" width="110" height="33.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
